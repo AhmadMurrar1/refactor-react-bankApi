@@ -1,0 +1,83 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Link Styles */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Home Component Styles */
+.home {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li a {
+  color: #007bff;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+Button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+Button:hover {
+  background-color: #0056b3;
+}
+
+/* Header Component Styles */
+.header-nav {
+  position: absolute;
+  display: block;
+  top: 0;
+  width: 100%;
+  background-color: #007bff;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.header-nav a:last-child {
+  margin-right: 0;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+}
+a:hover{
+  color: rgb(40, 158, 255);
+  transition: 0.5s;
+}
+
